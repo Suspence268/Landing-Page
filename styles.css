@@ -27,6 +27,7 @@ button{
 
 .left{
     flex: 1;
+    margin-right: 50px;
 }
 
 .right{
@@ -80,4 +81,43 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
     margin: 24px 0px;
+}
+
+.section1{
+    background-color: #F9FAF8;
+}
+
+.section1Header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.illustration{
+    border: solid 4px #3882F6;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.illustration-subtext{
+    color: #1F2937;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.illustration-container{
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
